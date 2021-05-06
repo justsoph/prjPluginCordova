@@ -18,7 +18,7 @@ $(document).on("click", "#beep", function(){
 });
 
 $(document).on("click", "#vibrar", function(){
-  navigator.vibrate(3000);
+  navigator.vibrate(2000);
 });
 
 function MostraMapa(lat, long){
