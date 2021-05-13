@@ -26,7 +26,7 @@ function MostraMapa(lat, long){
     var map = L.mapquest.map('map', {
     center: [lat, long],
     layers: L.mapquest.tileLayer('map'),
-    zoom: 15
+    zoom: 17
   });
   map.addControl(L.mapquest.control());
 }
