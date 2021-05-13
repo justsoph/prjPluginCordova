@@ -33,8 +33,8 @@ function MostraMapa(lat, long){
 
 $(document).on("click", "#local", function(){
    var onSuccess = function(position) {
-      function MostraMapa(position.coords.latitude, position.coords.longitude)
-    };
+      function MostraMapa(position.coords.latitude, position.coords.longitude);
+    }
 
     function onError(error) {
         alert('code: '    + error.code    + '\n' +
